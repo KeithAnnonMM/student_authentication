@@ -5,7 +5,7 @@ Container reusableButton(
     BuildContext context, String text, Function ontap, bool isHome) {
   return Container(
       width: MediaQuery.of(context).size.width,
-      height: 58,
+      height: 50,
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(90)),
       child: ElevatedButton(
         onPressed: () {
@@ -16,7 +16,9 @@ Container reusableButton(
               if (states.contains(MaterialState.pressed)) {
                 return Colors.black;
               }
-              return isHome ? const Color(0xFF4C53a5) : Colors.white;
+              return isHome
+                  ? const Color.fromARGB(255, 12, 30, 147)
+                  : Colors.white;
             }),
             shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                 RoundedRectangleBorder(
@@ -25,7 +27,7 @@ Container reusableButton(
             style: GoogleFonts.poppins(
               color: isHome ? Colors.white : Colors.black87,
               fontWeight: FontWeight.bold,
-              fontSize: 22,
+              fontSize: 20,
             )),
       ));
 }

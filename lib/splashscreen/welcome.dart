@@ -18,13 +18,14 @@ class Welcome extends StatelessWidget {
               const Image(image: AssetImage('assets/student2.png')),
               const SizedBox(height: 15),
               reusableText(
-                color: const Color(0xFF4C53a5),
-                text: 'Register, Record and Track Students Easily',
-                isHead: true,
-              ),
+                  color: const Color(0xFF4C53a5),
+                  text: 'Register, Record and Track Students Easily',
+                  isHead: true,
+                  size: 30),
               const SizedBox(height: 8),
               reusableText(
                 color: Colors.grey,
+                size: 20,
                 text:
                     'Keep Track of your students\' Education progress with a lot of ease',
                 isHead: false,

@@ -2,12 +2,14 @@ import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Text reusableText(
-        {required String text, required bool isHead, required Color color}) =>
+        {required String text,
+        required bool isHead,
+        required Color color,
+        required double size}) =>
     Text(
       text,
-      textAlign: TextAlign.center,
       style: GoogleFonts.poppins(
-        fontSize: isHead ? 34 : 22,
+        fontSize: size,
         fontWeight: isHead ? FontWeight.bold : FontWeight.normal,
         color: color,
       ),

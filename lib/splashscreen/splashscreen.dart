@@ -36,7 +36,11 @@ class _SplashScreenState extends State<SplashScreen> {
             size: 50,
           ),
           reusableText(
-              color: Colors.white, text: 'Student Monitor', isHead: true),
+            color: Colors.white,
+            text: 'Student Monitor',
+            isHead: true,
+            size: 34,
+          ),
         ],
       )),
     );
