@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563905520728",
+    "project_id": "mini-project-45608",
+    "storage_bucket": "mini-project-45608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563905520728:android:3fac7c1d8d138cd734562d",
+        "android_client_info": {
+          "package_name": "jason.defaults.student_authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563905520728-rp46bqrepq1sq2l80amd8gvnqetbir2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ecrhBsANwvdjZvYW1jT-wSfo--TWEeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563905520728-rp46bqrepq1sq2l80amd8gvnqetbir2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
