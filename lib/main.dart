@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:student_authentication/splashscreen/splashscreen.dart';
+import 'package:student_authentication/splashscreen/welcome.dart';
+import 'package:student_authentication/user_auth/login.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
+      initialRoute: '/splashscreen',
+      routes: {
+        '/splashscreen': (context) => const SplashScreen(),
+        '/welcome': (context) => const Welcome(),
+        '/login': (context) => const Login(),
+      },
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
     ),
   );
 }
